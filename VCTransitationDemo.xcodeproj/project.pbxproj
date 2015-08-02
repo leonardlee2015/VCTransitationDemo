@@ -14,6 +14,17 @@
 		D71B1F391B690461004B38EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71B1F381B690461004B38EC /* Images.xcassets */; };
 		D71B1F3C1B690461004B38EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71B1F3A1B690461004B38EC /* LaunchScreen.xib */; };
 		D71B1F481B690461004B38EC /* VCTransitationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B1F471B690461004B38EC /* VCTransitationDemoTests.m */; };
+		D71B1F541B690AD6004B38EC /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B1F531B690AD6004B38EC /* ModalViewController.m */; };
+		D71B1F581B6915D0004B38EC /* BaseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B1F571B6915D0004B38EC /* BaseAnimator.m */; };
+		D71B8FBD1B6CB3CD003C5657 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FBC1B6CB3CD003C5657 /* RootViewController.m */; };
+		D71B8FF21B6CBCBE003C5657 /* BounceAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FF11B6CBCBE003C5657 /* BounceAnimator.m */; };
+		D71B8FF81B6CCC98003C5657 /* CustomAnimationTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FF71B6CCC98003C5657 /* CustomAnimationTBC.m */; };
+		D71B8FFD1B6D1038003C5657 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */; };
+		D71B8FFE1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */; };
+		D71B90011B6D109C003C5657 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90001B6D109C003C5657 /* CEFoldAnimationController.m */; };
+		D71B90041B6D10AE003C5657 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90031B6D10AE003C5657 /* CEReversibleAnimationController.m */; };
+		D71B90071B6DA317003C5657 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90061B6DA317003C5657 /* NavigationController.m */; };
+		D71DE37B1B6B24F600079E3D /* SwipePercentIntercativeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71DE37A1B6B24F600079E3D /* SwipePercentIntercativeTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,28 @@
 		D71B1F411B690461004B38EC /* VCTransitationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTransitationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71B1F461B690461004B38EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71B1F471B690461004B38EC /* VCTransitationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTransitationDemoTests.m; sourceTree = "<group>"; };
+		D71B1F521B690AD6004B38EC /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		D71B1F531B690AD6004B38EC /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		D71B1F561B6915D0004B38EC /* BaseAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimator.h; sourceTree = "<group>"; };
+		D71B1F571B6915D0004B38EC /* BaseAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimator.m; sourceTree = "<group>"; };
+		D71B8FBB1B6CB3CD003C5657 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D71B8FBC1B6CB3CD003C5657 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D71B8FF01B6CBCBE003C5657 /* BounceAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceAnimator.h; sourceTree = "<group>"; };
+		D71B8FF11B6CBCBE003C5657 /* BounceAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceAnimator.m; sourceTree = "<group>"; };
+		D71B8FF61B6CCC98003C5657 /* CustomAnimationTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationTBC.h; sourceTree = "<group>"; };
+		D71B8FF71B6CCC98003C5657 /* CustomAnimationTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationTBC.m; sourceTree = "<group>"; };
+		D71B8FF91B6D1038003C5657 /* CEBaseInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBaseInteractionController.h; sourceTree = "<group>"; };
+		D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEBaseInteractionController.m; sourceTree = "<group>"; };
+		D71B8FFB1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEHorizontalSwipeInteractionController.h; sourceTree = "<group>"; };
+		D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEHorizontalSwipeInteractionController.m; sourceTree = "<group>"; };
+		D71B8FFF1B6D109C003C5657 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEFoldAnimationController.h; sourceTree = "<group>"; };
+		D71B90001B6D109C003C5657 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEFoldAnimationController.m; sourceTree = "<group>"; };
+		D71B90021B6D10AE003C5657 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEReversibleAnimationController.h; sourceTree = "<group>"; };
+		D71B90031B6D10AE003C5657 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEReversibleAnimationController.m; sourceTree = "<group>"; };
+		D71B90051B6DA317003C5657 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		D71B90061B6DA317003C5657 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		D71DE3791B6B24F600079E3D /* SwipePercentIntercativeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipePercentIntercativeTransition.h; sourceTree = "<group>"; };
+		D71DE37A1B6B24F600079E3D /* SwipePercentIntercativeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipePercentIntercativeTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +116,10 @@
 			children = (
 				D71B1F2F1B690461004B38EC /* AppDelegate.h */,
 				D71B1F301B690461004B38EC /* AppDelegate.m */,
-				D71B1F321B690461004B38EC /* ViewController.h */,
-				D71B1F331B690461004B38EC /* ViewController.m */,
 				D71B1F351B690461004B38EC /* Main.storyboard */,
+				D71DE3781B6B249F00079E3D /* Interaction Controller */,
+				D71B1F551B6915A4004B38EC /* Animation */,
+				D71B1F511B690AAE004B38EC /* View Controller */,
 				D71B1F381B690461004B38EC /* Images.xcassets */,
 				D71B1F3A1B690461004B38EC /* LaunchScreen.xib */,
 				D71B1F2B1B690461004B38EC /* Supporting Files */,
@@ -117,6 +151,51 @@
 				D71B1F461B690461004B38EC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71B1F511B690AAE004B38EC /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D71B1F321B690461004B38EC /* ViewController.h */,
+				D71B1F331B690461004B38EC /* ViewController.m */,
+				D71B1F521B690AD6004B38EC /* ModalViewController.h */,
+				D71B1F531B690AD6004B38EC /* ModalViewController.m */,
+				D71B8FBB1B6CB3CD003C5657 /* RootViewController.h */,
+				D71B8FBC1B6CB3CD003C5657 /* RootViewController.m */,
+				D71B8FF61B6CCC98003C5657 /* CustomAnimationTBC.h */,
+				D71B8FF71B6CCC98003C5657 /* CustomAnimationTBC.m */,
+				D71B90051B6DA317003C5657 /* NavigationController.h */,
+				D71B90061B6DA317003C5657 /* NavigationController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D71B1F551B6915A4004B38EC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D71B1F561B6915D0004B38EC /* BaseAnimator.h */,
+				D71B1F571B6915D0004B38EC /* BaseAnimator.m */,
+				D71B8FF01B6CBCBE003C5657 /* BounceAnimator.h */,
+				D71B8FF11B6CBCBE003C5657 /* BounceAnimator.m */,
+				D71B90021B6D10AE003C5657 /* CEReversibleAnimationController.h */,
+				D71B90031B6D10AE003C5657 /* CEReversibleAnimationController.m */,
+				D71B8FFF1B6D109C003C5657 /* CEFoldAnimationController.h */,
+				D71B90001B6D109C003C5657 /* CEFoldAnimationController.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		D71DE3781B6B249F00079E3D /* Interaction Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D71B8FF91B6D1038003C5657 /* CEBaseInteractionController.h */,
+				D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */,
+				D71B8FFB1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.h */,
+				D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */,
+				D71DE3791B6B24F600079E3D /* SwipePercentIntercativeTransition.h */,
+				D71DE37A1B6B24F600079E3D /* SwipePercentIntercativeTransition.m */,
+			);
+			name = "Interaction Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +298,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71B8FFE1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m in Sources */,
+				D71B1F581B6915D0004B38EC /* BaseAnimator.m in Sources */,
+				D71B8FBD1B6CB3CD003C5657 /* RootViewController.m in Sources */,
+				D71B8FF21B6CBCBE003C5657 /* BounceAnimator.m in Sources */,
+				D71B1F541B690AD6004B38EC /* ModalViewController.m in Sources */,
+				D71DE37B1B6B24F600079E3D /* SwipePercentIntercativeTransition.m in Sources */,
+				D71B90041B6D10AE003C5657 /* CEReversibleAnimationController.m in Sources */,
+				D71B8FF81B6CCC98003C5657 /* CustomAnimationTBC.m in Sources */,
+				D71B90011B6D109C003C5657 /* CEFoldAnimationController.m in Sources */,
 				D71B1F341B690461004B38EC /* ViewController.m in Sources */,
+				D71B8FFD1B6D1038003C5657 /* CEBaseInteractionController.m in Sources */,
 				D71B1F311B690461004B38EC /* AppDelegate.m in Sources */,
 				D71B1F2E1B690461004B38EC /* main.m in Sources */,
+				D71B90071B6DA317003C5657 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +506,7 @@
 				D71B1F4D1B690461004B38EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71B1F4E1B690461004B38EC /* Build configuration list for PBXNativeTarget "VCTransitationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +515,7 @@
 				D71B1F501B690461004B38EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
