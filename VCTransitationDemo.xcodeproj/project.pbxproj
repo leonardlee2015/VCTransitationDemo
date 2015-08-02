@@ -19,8 +19,6 @@
 		D71B8FBD1B6CB3CD003C5657 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FBC1B6CB3CD003C5657 /* RootViewController.m */; };
 		D71B8FF21B6CBCBE003C5657 /* BounceAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FF11B6CBCBE003C5657 /* BounceAnimator.m */; };
 		D71B8FF81B6CCC98003C5657 /* CustomAnimationTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FF71B6CCC98003C5657 /* CustomAnimationTBC.m */; };
-		D71B8FFD1B6D1038003C5657 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */; };
-		D71B8FFE1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */; };
 		D71B90011B6D109C003C5657 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90001B6D109C003C5657 /* CEFoldAnimationController.m */; };
 		D71B90041B6D10AE003C5657 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90031B6D10AE003C5657 /* CEReversibleAnimationController.m */; };
 		D71B90071B6DA317003C5657 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71B90061B6DA317003C5657 /* NavigationController.m */; };
@@ -61,10 +59,6 @@
 		D71B8FF11B6CBCBE003C5657 /* BounceAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceAnimator.m; sourceTree = "<group>"; };
 		D71B8FF61B6CCC98003C5657 /* CustomAnimationTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationTBC.h; sourceTree = "<group>"; };
 		D71B8FF71B6CCC98003C5657 /* CustomAnimationTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationTBC.m; sourceTree = "<group>"; };
-		D71B8FF91B6D1038003C5657 /* CEBaseInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBaseInteractionController.h; sourceTree = "<group>"; };
-		D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEBaseInteractionController.m; sourceTree = "<group>"; };
-		D71B8FFB1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEHorizontalSwipeInteractionController.h; sourceTree = "<group>"; };
-		D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEHorizontalSwipeInteractionController.m; sourceTree = "<group>"; };
 		D71B8FFF1B6D109C003C5657 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEFoldAnimationController.h; sourceTree = "<group>"; };
 		D71B90001B6D109C003C5657 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEFoldAnimationController.m; sourceTree = "<group>"; };
 		D71B90021B6D10AE003C5657 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEReversibleAnimationController.h; sourceTree = "<group>"; };
@@ -188,10 +182,6 @@
 		D71DE3781B6B249F00079E3D /* Interaction Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D71B8FF91B6D1038003C5657 /* CEBaseInteractionController.h */,
-				D71B8FFA1B6D1038003C5657 /* CEBaseInteractionController.m */,
-				D71B8FFB1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.h */,
-				D71B8FFC1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m */,
 				D71DE3791B6B24F600079E3D /* SwipePercentIntercativeTransition.h */,
 				D71DE37A1B6B24F600079E3D /* SwipePercentIntercativeTransition.m */,
 			);
@@ -298,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71B8FFE1B6D1038003C5657 /* CEHorizontalSwipeInteractionController.m in Sources */,
 				D71B1F581B6915D0004B38EC /* BaseAnimator.m in Sources */,
 				D71B8FBD1B6CB3CD003C5657 /* RootViewController.m in Sources */,
 				D71B8FF21B6CBCBE003C5657 /* BounceAnimator.m in Sources */,
@@ -308,7 +297,6 @@
 				D71B8FF81B6CCC98003C5657 /* CustomAnimationTBC.m in Sources */,
 				D71B90011B6D109C003C5657 /* CEFoldAnimationController.m in Sources */,
 				D71B1F341B690461004B38EC /* ViewController.m in Sources */,
-				D71B8FFD1B6D1038003C5657 /* CEBaseInteractionController.m in Sources */,
 				D71B1F311B690461004B38EC /* AppDelegate.m in Sources */,
 				D71B1F2E1B690461004B38EC /* main.m in Sources */,
 				D71B90071B6DA317003C5657 /* NavigationController.m in Sources */,

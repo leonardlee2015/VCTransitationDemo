@@ -10,7 +10,7 @@
 #import "BaseAnimator.h"
 #import "BounceAnimator.h"
 #import "SwipePercentIntercativeTransition.h"
-#import "CEHorizontalSwipeInteractionController.h"
+
 #import "CEFoldAnimationController.h"
 
 @interface BaseAnimator ()
@@ -24,7 +24,7 @@
 
 @implementation CustomAnimationTBC
 {
-    CEHorizontalSwipeInteractionController *_swipIntrecationController;
+    
     CEFoldAnimationController *_foldAnimationController;
 }
 - (void)viewDidLoad {
@@ -32,7 +32,7 @@
     // Do any additional setup after loading the view.
     self.delegate = self;
     
-    //_swipIntrecationController = [[CEHorizontalSwipeInteractionController alloc]init];
+    
     _foldAnimationController = [[CEFoldAnimationController alloc]init];
     _foldAnimationController.folds = 3;
    
@@ -85,7 +85,7 @@
     
 }
 -(id<UIViewControllerInteractiveTransitioning>)tabBarController:(UITabBarController *)tabBarController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController{
-    //return _swipIntrecationController.interactionInProgress?_swipIntrecationController:nil;
+   
     return self.interactViewController.interacting? self.interactViewController:nil;
     /*
     BaseAnimator *animator =  (BaseAnimator*)animationController;
